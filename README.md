@@ -11,3 +11,5 @@ For execute this project you will need a server with:
 
 The file /wordpress/wp_user.sql is the dump of the mysql database, the user was set with wp_user and the password is 123456.
 (if you need you only have change that in wp-config.php)
+
+For setting the alert we only need put the custom fields "AlertMethod" with value "Screen" (only do that because in the future we can use others alerts,  like email or sms)  and "AlertTimeInHours", with the number of hours you want be alerted in your event.
